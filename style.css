@@ -1,0 +1,92 @@
+/* removes browser default margin and sets background color */
+
+body {
+  background-color: #508AA8;
+  margin: 0;
+}
+/* turns header container into block to be able to center, changes background color of the block, text color to white, and only makes it a specific width  */
+header {
+  display: block;
+  background-color: #031927;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding: .5em ;
+  width: 75%;
+}
+/* fixes specific height of the headers AFTER the first main one */
+header > h3 {
+  padding: 0;
+  margin: 0;
+  height: 30px;
+}
+
+/* turns image into block element from inline so that it can be center, and then adds a border radius the smooth the corners */
+img{
+  display: block;
+  margin: 20px auto;
+  border-radius: 5%;
+}
+/* sets specific elements on page to Trebuchet MS*/
+html, h1, h2, h3, a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+/* font size change */
+h1{
+  font-size: 3em;
+}
+/* font size change */
+h3 {
+  font-size: 1.4em;
+}
+/* changes width of the white horizontal line at the top of webpage */
+hr{
+  width: 50%;
+}
+/* changes text to a specific font, centers the text and changes the width in which the text is allowed */
+div p , li {
+  margin: 10px auto;
+  font-size: 1.2em;
+  width: 65%;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+/* centers the footer and adds margin around */
+footer{
+  text-align: center;
+  margin: 30px;
+}
+/* centers the links under Contact Me */
+#links {
+  text-align: center;
+  padding: 30px;
+}
+/* changes font size of the links under Contact Me */
+a{
+  font-size: 1.5em;
+  margin: 1em;
+}
+/* changes the links' color */
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+/* link changes color if already has been visited */
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+/* when hovered, link color changes to red */
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/* while click is held down, the link will turn to yellow */
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
