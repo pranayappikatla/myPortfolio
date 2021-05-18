@@ -1,13 +1,13 @@
 /* removes browser default margin and sets background color */
 
 body {
-  background-color: #508AA8;
+  background-color: #031927;
   margin: 0;
 }
 /* turns header container into block to be able to center, changes background color of the block, text color to white, and only makes it a specific width  */
 header {
   display: block;
-  background-color: #031927;
+  background-color: black;
   color: white;
   text-align: center;
   margin: 0 auto;
